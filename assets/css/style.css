@@ -5,12 +5,11 @@
 }
 
 body {
-  /* more on this crazy alphanumerical value in a minute! */
   color: #39a6b2;
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* apply styles to <header> */
+/* header section start */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -42,7 +41,9 @@ header nav ul li a {
   font-weight: lighter;
   font-size: 22px;
 }
+/* header style end */
 
+/* footer style start */
 footer {
   background: #fce138;
   width: 100%;
@@ -65,7 +66,10 @@ footer div {
 footer a {
   color: #024e76;
 }
+/* footer style end */
 
+
+/* style all section tags */
 section {
   padding: 60px;
 }
@@ -78,7 +82,6 @@ section {
   background-position: center;
   position: relative;
 }
-/* Hero Style End */
 
 .hero-form {
   border: 3px solid #024e76;
@@ -120,7 +123,10 @@ section {
   padding: 10px 20px;
   font-size: 16px;
 }
+/* hero style end */
 
+
+/* "what we do" style start */
 .intro {
   text-align: center;
 }
@@ -132,7 +138,10 @@ section {
   font-size: 20px;
   margin: 0 auto;
 }
+/* "what we do" style end */
 
+
+/* "what you do" style start */
 .steps {
   text-align: center;
   background: #fce138;
@@ -161,7 +170,10 @@ section {
 .steps span {
   font-size: 38px;
 }
+/* "what you do" style end */
 
+
+/* section title style start */
 .section-title {
   font-size: 55px;
   color: #024e76;
@@ -178,7 +190,10 @@ section {
 .secondary-border {
   border-color: #39a6b2;
 }
+/* section title style end */
 
+
+/* "meet the trainers" style start */
 .trainers {
   text-align: center;
 }
@@ -217,16 +232,10 @@ section {
   font-size: 17px;
   line-height: 1.3;
 }
+/* "meet the trainers" style end */
 
-.text-left {
-  text-align: left;
-}
 
-.text-right {
-  text-align: right;
-}
-
-/* REACH OUT STYLES START */
+/* reach out style start */
 .contact {
   text-align: center;
   background: #024e76;
@@ -266,5 +275,14 @@ section {
 .contact-info a {
   color: #fce138;
 }
+/* reach out style end */
 
-/* REACH OUT STYLES END */
+
+/* utilities */
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
