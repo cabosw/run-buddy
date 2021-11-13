@@ -9,7 +9,8 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
-/* header section start */
+
+/* header style start */
 header {
   padding: 20px 35px;
   background-color: #39a6b2;
@@ -43,6 +44,7 @@ header nav ul li a {
 }
 /* header style end */
 
+
 /* footer style start */
 footer {
   background: #fce138;
@@ -73,6 +75,7 @@ footer a {
 section {
   padding: 60px;
 }
+
 
 /* Hero Style Start */
 .hero {
